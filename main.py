@@ -78,6 +78,44 @@
 #     else:
 #         break
 # print("GoodBye")
+### version 2
+
+# print("Welcome to сalculator ")
+# while True:
+#     number1 = int(input("Enter first number: "))
+#     number2 = int(input("Enter second number: "))
+#     user_select = int(input("1. addition\n2. subtraction\n3. multiplication\n4. division\n"
+#                           "5. pow\n6. div\n7. mod\nChoose the operation: "))
+#     match user_select:
+#         case 1:
+#             print(number1 + number2)
+#         case 2:
+#             print(number1 - number2)
+#         case 3:
+#             print(number1 * number2)
+#         case 4:
+#             if number2 != 0:
+#                 print(number1 / number2)
+#             else:
+#                 print("Attention, Division by zero!")
+#         case 5:
+#             print(number1 ** number2)
+#         case 6:
+#             if number2 != 0:
+#                 print(number1 // number2)
+#             else:
+#                 print("Attention, Division by zero!")
+#         case 7:
+#             if number2 != 0:
+#                 print(number1 % number2)
+#             else:
+#                 print("Attention, Division by zero!")
+#     user_choice = input("Press 'y' for continue\n")
+#     if user_choice == "y":
+#         continue
+#     else:
+#         break
+# print("GoodBye")
 
 # Задание 5.3 hashtag
 #Користувач вводить рядок, Ваше завдання – перетворити рядок на hashtag.
